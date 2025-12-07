@@ -47,7 +47,7 @@
     map)
   "Keymap for epp mode.")
 
-(defun epp-mode-selectric-percent ()
+(defun epp-mode-electric-percent ()
   "Called when % is pressed."
   (interactive)
   (if (and electric-pair-mode
